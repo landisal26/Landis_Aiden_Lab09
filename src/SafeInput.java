@@ -4,10 +4,10 @@ public class SafeInput
 {
     public static String getNonZeroLenString(Scanner pipe, String prompt)
     {
-        String retString = "";  // Set this to zero length. Loop runs until it isn’t
+        String retString = "";  
         do
         {
-            System.out.println("\n" + prompt + ": "); // show prompt add space
+            System.out.println("\n" + prompt + ": "); 
             retString = pipe.nextLine();
         }while(retString.length() == 0);
 
